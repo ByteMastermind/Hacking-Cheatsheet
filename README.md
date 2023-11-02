@@ -115,10 +115,10 @@ Goto a
 ### Scanning the machine
 
 ```
-nmap -sV {IP ADDRESS}
+nmap -sV -O {IP ADDRESS}
 ```
 
-- This provides information about services version are which ports are in use, all in once
+- This provides information about services version, OS and which ports are in use, all in once
 
 ### Using DirBuster
 
