@@ -8,7 +8,6 @@ Cheatsheet under my development, contributing regularily. Trying to include thin
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Networking stuff](#networking-stuff)
   - [Show my wireless card name](#show-my-wireless-card-name)
   - [Put wireless card on monitor mode](#put-wireless-card-on-monitor-mode)
