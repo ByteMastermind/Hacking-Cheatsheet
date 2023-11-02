@@ -1,4 +1,4 @@
-# Cheatsheet for hacking stuff
+# Useful Cheatsheet
 
 ## Networking stuff
 
