@@ -30,6 +30,9 @@ sudo ifconfig {interface} hw ether {MAC address}
 sudo ifconfig {interface} up
 ```
 
+### Host DarkWeb, Secret chat
+- use onionshare
+
 ## System compromising
 
 ### curl or wget without the function itself
