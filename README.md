@@ -4,7 +4,7 @@
 > 
 > For Academic and Educational Purposes Only
 
-Cheatsheet under my development, contributing regularily. Trying to include things that are hard to remember, tricks and basic utilities and how to use them. All in one place.
+I am actively developing a comprehensive cheat sheet, regularly adding content that encompasses intricate information, helpful techniques, and fundamental utilities, along with their practical usage, all conveniently consolidated in a single resource
 
 ## Table of Contents
 
