@@ -42,10 +42,15 @@ airmon-ng start {card name}
 
 ### Show routers in range
 ```
-airdump-ng {card name}
+airodump-ng {card name}
 ```
 - PWR column is showing signal strenght
 - Note also the channel and BSSID of the router
+
+### Change interface channel
+```
+sudo iwconfig {interface} channel {channel}
+```
 
 ### Show devices connected to a specific router
 ```
