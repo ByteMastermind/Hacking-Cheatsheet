@@ -67,6 +67,10 @@ aireplay-ng --deauth 0 -c {devices MAC} -a {routers MAC ADDRESS} {card name}
 - 0 means infinite number of deauth messages
 - TIP of the day: put for example 50 insted of 0 and replay it with 1 second delay
 
+> **Script**
+>
+> For automation, use a script avaiable [here](./files/scripts/deauth_attack.sh).
+
 ### Change MAC address
 ```
 sudo ifconfig {interface} down
