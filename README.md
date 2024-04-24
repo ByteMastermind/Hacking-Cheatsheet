@@ -1,4 +1,4 @@
-# Useful Cheatsheet
+# Hacking Cheatsheet
 
 > #### Disclaimer
 > 
