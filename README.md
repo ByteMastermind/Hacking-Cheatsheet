@@ -15,6 +15,7 @@ I am actively developing a comprehensive cheat sheet, regularly adding content t
   - [Show devices connected to a specific router](#show-devices-connected-to-a-specific-router)
   - [Create deauth attack](#create-deauth-attack)
   - [Change MAC address](#change-mac-address)
+  - [Network list with information](#network-list-with-information)
   - [Host DarkWeb, Secret chat](#host-darkweb-secret-chat)
 - [System compromising](#system-compromising)
   - [curl or wget without the function itself](#curl-or-wget-without-the-function-itself)
@@ -72,6 +73,12 @@ sudo ifconfig {interface} down
 sudo ifconfig {interface} hw ether {MAC address}
 sudo ifconfig {interface} up
 ```
+
+### Network list with information 
+```
+nmcli device wifi list
+```
+- Show info about avaiable Wi-Fi networks and its security type
 
 ### Host DarkWeb, Secret chat
 - use onionshare
