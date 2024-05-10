@@ -9,6 +9,7 @@ I am actively developing a comprehensive cheat sheet, regularly adding content t
 ## Table of Contents
 
 - [Networking stuff](#networking-stuff)
+  - [Scanning the network for IPs](#scanning-the-network-for-ips)
   - [Show my wireless card name](#show-my-wireless-card-name)
   - [Put wireless card on monitor mode](#put-wireless-card-on-monitor-mode)
   - [Show routers in range](#show-routers-in-range)
@@ -30,6 +31,12 @@ I am actively developing a comprehensive cheat sheet, regularly adding content t
 
 
 ## Networking stuff
+
+### Scanning the network for IPs
+
+```
+nmap -v -sP {i.p.add.ress/mask}
+```
 
 ### Show my wireless card name
 ```
@@ -135,6 +142,7 @@ nmap -sV -O {IP ADDRESS}
 ```
 
 - This provides information about services version, OS and which ports are in use, all in once
+
 
 ### Using DirBuster
 
